@@ -1,0 +1,447 @@
+                             * {
+                         box-sizing: border-box;
+                     }
+                     
+                     body {
+                         background-color: #082E41;
+                         padding: 10px;
+                     }
+                     
+                     .Name {
+                         font-family: "Blowbrush", sans-serif;
+                         color: #23BEBB;
+                         font-size: 50px;
+                         padding: 15px;
+                         text-align: center;
+                         padding-bottom: 10px;
+                     }
+                     
+                     .Name:active {
+                         font-size: 25px;
+                         color: #efefef;
+                         padding: 10px;
+                         text-align: center;
+                         padding-bottom: 10px;
+                     }
+                     
+                     #maintitle {
+                         padding: 10px;
+                         font-family: "Adam", sans-serif;
+                         color: #23BEBB;
+                         text-align: center;
+                         font-size: 25px;
+                     }
+                     
+                     #name1 {
+                         font-family: "Adam", sans-serif;
+                         color: #FFFFFF;
+                     }
+                     
+                     #materialname1 {
+                         font-family: "Avenirnext", sans-serif;
+                         color: #efefef;
+                         text-align: center;
+                     }
+                     
+                     .wrapper {
+                         max-width: 400px;
+                     }
+                     
+                     .testicon:hover {
+                         background: url(icons/behance_white.png);
+                     }
+                     
+                     p {
+                         font-family: "Adam", sans-serif;
+                         color: white;
+                     }
+                     
+                     #img1 {
+                         position: relative;
+                     }
+                     
+                     .socialicon1:hover {
+                         background: url(icons/behance_white.png);
+                     }
+                     
+                     .socialicon2:hover {
+                         background: url(icons/emailaddress_white.png);
+                     }
+                     
+                     #pic5 {
+                         width: 100px;
+                     }
+                     /*
+      p {
+            z-index: 100;
+            position: absolute;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            left: 150px;
+            top: 350px;
+        }
+*/
+                     /*____________*/
+                     /*____________*/
+                     /*____________*/
+                     /* Main Nav*/
+                     /*____________*/
+                     /*____________*/
+                     /*____________*/
+                     /* menu {
+                                        width: 35px;
+                                        height: 5px;
+                                        background-color: black;
+                                        margin: 6px 0;
+                                    }
+*/
+                     /*____________*/
+                     /*____________*/
+                     /* Button */
+                     /*____________*/
+                     /*____________*/
+                     
+                     .btn {
+                         color: #FFFFFF;
+                         padding: 15px 50px;
+                         border: 2px solid #28CECE;
+                         background-color: #082E41;
+                         text-align: center;
+                         font-family: "Adam", sans-serif;
+                         margin: 20px 70px;
+                         text-align: center;
+                         font-size: 16px;
+                     }
+                     
+                     .btn:active {
+                         background-color: #28CECE;
+                         font-family: "Adam", sans-serif;
+                         /*BLue */
+                         border: none;
+                         color: #082E41;
+                         padding: 15px 50px;
+                         text-align: center;
+                         display: inline-block;
+                         margin: 20px 70px;
+                         cursor: pointer;
+                         font-size: 16px;
+                     }
+                     /*---------------*/
+                     /***** Zoe *****/
+                     /*---------------*/
+                     /*
+        figure.effect-zoe figcaption {
+            top: auto;
+            bottom: 0;
+            padding: 1em;
+            height: 3.75em;
+            background: #fff;
+            color: white;
+            -webkit-transition: -webkit-transform 0.35s;
+            transition: transform 0.35s;
+            -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+        }
+        
+        figure.effect-zoe h2 {
+            float: left;
+        }
+        
+        figure.effect-zoe figcaption>span {
+            float: right;
+        }
+        
+        figure.effect-zoe p {
+            position: absolute;
+            bottom: 8em;
+            padding: 2em;
+            color: #fff;
+            text-transform: none;
+            font-size: 80%;
+            opacity: 0;
+            -webkit-transition: opacity 0.35s;
+            transition: opacity 0.35s;
+        }
+        
+        figure.effect-zoe h2,
+        figure.effect-zoe figcaption>span {
+            -webkit-transition: -webkit-transform 0.35s;
+            transition: transform 0.35s;
+            -webkit-transform: translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
+        }
+        
+        figure.effect-zoe figcaption>span::before {
+            display: inline-block;
+            padding: 8px 10px;
+            font-family: 'feathericons';
+            speak: none;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+    
+        figure.effect-zoe h2 {
+            display: inline-block;
+        }
+        
+        figure.effect-zoe:hover p {
+            opacity: 1;
+        }
+        
+        figure.effect-zoe:hover figcaption,
+        figure.effect-zoe:hover h2,
+        figure.effect-zoe:hover figcaption>span {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        
+        figure.effect-zoe:hover h2 {
+            -webkit-transition-delay: 0.05s;
+            transition-delay: 0.05s;
+        }
+        
+        figure.effect-zoe:hover figcaption>span:nth-child(4) {
+            -webkit-transition-delay: 0.1s;
+            transition-delay: 0.1s;
+        }
+        
+        figure.effect-zoe:hover figcaption>span:nth-child(3) {
+            -webkit-transition-delay: 0.15s;
+            transition-delay: 0.15s;
+        }
+        
+        figure.effect-zoe:hover figcaption>span:nth-child(2) {
+            -webkit-transition-delay: 0.2s;
+            transition-delay: 0.2s;
+        }
+*/
+                     /* _____________ */
+                     /* SIDE NAV */
+                     /*_________________*/
+                     
+                     .sidenav {
+                         float: right;
+                         height: 100%;
+                         width: 0;
+                         position: fixed;
+                         z-index: 1;
+                         top: 0;
+                         left: 0;
+                         background-color: #082E41;
+                         overflow-x: hidden;
+                         transition: 0.5s;
+                         padding-top: 60px;
+                     }
+                     /* Fonts such as Projects*/
+                     
+                     .sidenav a {
+                         padding: 8px 8px 8px 32px;
+                         text-decoration: none;
+                         font-size: 24px;
+                         color: #23BEBB;
+                         display: block;
+                         transition: 0.3s;
+                     }
+                     
+                     .sidenav a:hover,
+                     .offcanvas a:focus {
+                         color: #f1f1f1;
+                     }
+                     
+                     .sidenav .closebtn {
+                         position: absolute;
+                         top: 0;
+                         right: 25px;
+                         font-size: 36px;
+                         margin-left: 50px;
+                     }
+                     
+                     ul a {
+                         padding: 5px 5px 5px 25px;
+                         text-decoration: none;
+                         color: #19868F;
+                         font-size: 18px;
+                         display: block;
+                         transition: 0.3s;
+                     }
+                     
+                     @media screen and (max-height: 450px) {
+                         .sidenav {
+                             padding-top: 15px;
+                         }
+                         .sidenav a {
+                             font-size: 18px;
+                         }
+                     }
+                     /*_________ */
+                     /*_________ */
+                     /* ------- */
+                     /* Mobile */
+                     /* -------- */
+                     /*_________ */
+                     /*_________ */
+                     
+                     @media screen and (min-width: 480px) {
+                         /*_________ */
+                         /*_________ */
+                         /*_________ */
+                         /* Tablet */
+                         /*_________ */
+                         /*_________ */
+                         /*_________ */
+                         @media only screen and (min-width: 768px) {
+                             .nav {
+                                 margin-top: 167px;
+                                 width: 1024px;
+                                 height: 34px;
+                             }
+                             .nav_button {
+                                 height: 34px;
+                                 margin: 0 auto;
+                                 margin-right: 10px;
+                                 float: left;
+                             }
+                             .Name {
+                                 font-family: "Blowbrush", sans-serif;
+                                 color: #23BEBB;
+                                 font-size: 30px;
+                                 padding-bottom: 15px;
+                                 float:left;
+                             }
+                             .Name:active {
+                                 font-size: 30px;
+                                 text-align: center;
+                                 color: #efefef;
+                                 padding-bottom: 15px;
+                                 float:left;
+                             }
+                             #maintitle {
+                                 padding: 10px;
+                                 font-family: "Adam", sans-serif;
+                                 color: #23BEBB;
+                                 float: left;
+                                 font-size: 38px;
+                             }
+                             #name1 {
+                                 font-family: "Adam", sans-serif;
+                                 color: #FFFFFF;
+                             }
+                             .wrapper {
+                                 max-width: 750px;
+                             }
+                             .testicon:hover {
+                                 background: url(icons/behance_white.png);
+                             }
+                             p {
+                                 font-family: "Adam", sans-serif;
+                                 color: white;
+                             }
+                             .btn {
+                                 float: left;
+                                 color: #FFFFFF;
+                                 padding: 12px 45px;
+                                 border: 2px solid #28CECE;
+                                 background-color: #082E41;
+                                 font-family: "Adam", sans-serif;
+                                 margin: 18px 60px;
+                                 font-size: 13px;
+                             }
+                             .btn:active {
+                                 float: left;
+                                 background-color: #28CECE;
+                                 font-family: "Adam", sans-serif;
+                                 /*BLue */
+                                 border: none;
+                                 color: #082E41;
+                                 padding: 12px 45px;
+                                 display: inline-block;
+                                 margin: 18px 60px;
+                                 cursor: pointer;
+                                 font-size: 13px;
+                             }
+                           
+                             /* Navigation  */
+                             ul {
+                                 list-style-type: none;
+                                 margin: 0;
+                                 padding: 0;
+                                 overflow: hidden;
+                             }
+                             li {
+                                 float: left;
+                             }
+                             li a {
+                                 display: block;
+                                 color: #22BAB7;
+                                 text-align: center;
+                                 padding: 16px 18px;
+                                 text-decoration: none;
+                                 font-family: 'Didact Gothic', sans-serif;
+                             }
+                             li a:hover:not(.active) {
+                                 color: #fff;
+                             }
+                             .active {
+                                 color: #fff;
+                             }
+                             
+                             ul{
+                                 text-align: 
+                                     center;
+                                 padding-left
+                                 : 
+                                     15px;
+                                 padding-right: 
+                                     15px;
+                             }
+                             #pic2{
+                                 float: left;
+                                     padding: 10px;
+                                 transform: 
+                                     translate(90px);
+                                
+                             }
+                             #pic3{
+                                 transform: 
+                                     translateX(40px);
+                                 transform: 
+                                     translate(90px);
+                                
+                                     
+                             }
+                             #pic4{
+                                 float:left;
+                              padding: 
+                                  10px;
+                                 transform: 
+                                     translateX(70px);
+                             }
+                             
+                             #pic5{
+                                 transform: 
+                                     translateX(200px);
+                                
+                             }
+                            /* li.logo {
+                                 font-family: "Blowbrush", sans-serif;
+                                 color: #23BEBB;
+                                 font-size: 50px;
+                                 text-align: center;
+                             }
+                             */
+                             /*_________ */
+                             /*_________ */
+                             /* Desktop */
+                             /*_________ */
+                             /*_________ */
+                             @media screen and (min-width: 1024px) {}
+                             @media screen and (min-width: 1280px) {}
+                             /*_______ */
+                             /*_______ */
+                             /*_______ */
+                             /*Footer */
+                             /*_______ */
+                             /*_______ */
+                             /*_______ */
