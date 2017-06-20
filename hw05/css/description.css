@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #082E41;
+    padding: 20px;
+}
+/*Span */
+    span {
+        font-family: 'Didact Gothic', sans-serif;
+    }
+
+@media screen and (max-width:450px) {
+   
+    img{
+        max-width: 300px;
+        text-align: center;
+        margin-left:30px;
+    }
+
+     #caption{ 
+        background: #28CECE;
+        width: 75%;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 8px;
+        position: absolute;
+        top:360px;
+        left:50px;
+        color: white;
+        display: block;
+    }
+    #material{
+        width: 75%;
+        top:400px;
+        left:50px;
+        font-size: 15px;
+        background: #28CECE;
+        position: absolute;
+        color: white;
+        padding: 8px;
+        font-family: "Avenirroman", sans-serif;
+    }
+p{
+    font-size: 14px;
+    padding: 15px;
+    margin-left: 32px;
+    color:white;
+    text-align:center;
+    max-width: 300px
+}
+ /* List type */
+    ul {
+        list-style-type: none;
+    }
+    #mainmenu {
+        display: none;
+    }
+    #mainmenu2 {
+        top:5px;
+        float: right;
+        padding-left: 200px;
+        width: 300px;
+    }
+    .name2 {
+       font-family: "Blowbrush", sans-serif;
+        color: #23BEBB;
+        font-size: 30px;
+        padding-bottom: 15px;
+        float: left;
+    }
+
+ /* Fine Arts Title */
+    #maintitle {
+         padding: 10px;
+        font-family: "Adam", sans-serif;
+        color: #23BEBB;
+        text-align: center;
+        font-size: 25px;
+    }
+        
+}
+
+/*
+@media screen and (min-width: 480px) {
+
+}
+*/
+@media screen and (min-width: 768px) {
+
+img{
+    max-width: 400px;
+    text-align: center;
+    margin-left:200px;
+}
+
+
+/* Fine Arts Title */
+    #maintitle {
+         padding: 10px;
+        font-family: "Adam", sans-serif;
+        color: #23BEBB;
+        text-align: center;
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+
+
+/* Hiding  off Su */
+    .name2{
+        display: none;
+      /*______________ */
+    }
+    /* Navigation  */
+    /*______________ */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #22BAB7;
+        text-align: center;
+        padding: 18px 20px;
+        margin-left: 70px;
+        text-decoration: none;
+        font-family: 'Didact Gothic', sans-serif;
+    }
+    li a:hover:not(.active) {
+        color: #fff;
+    }
+    .active {
+        color: #fff;
+    }
+    ul {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+     .Name {
+        font-family: "Blowbrush", sans-serif;
+        color: #23BEBB;
+        font-size: 30px;
+        padding-top:7px;
+        margin-left:10px;
+        padding-bottom: 10px;
+        float: left;
+    }
+    .Name:active {
+        font-size: 30px;
+        text-align: center;
+        color: #efefef;
+        padding-top:7px;
+        padding-left: 2px;
+        padding-bottom: 10px;
+        float: left;
+
+    }
+/* Navigation button */
+    .nav {
+        margin-top: 200px;
+        width: 1024px;
+        height: 34px;
+    }
+    .nav_button {
+        height: 34px;
+        margin: 0 auto;
+        margin-right: 10px;
+        float: left;
+    }
+    .testicon:hover {
+        background: url(icons/behance_white.png);
+        cursor: pointer;
+    }
+     #caption{ 
+        background: #28CECE;
+        width: 48%;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 8px;
+        position: absolute;
+        top:490px;
+        left:220px;
+        color: white;
+        display: block;
+    }
+    #material{
+        width: 48%;
+        top:522px;
+        left:220px;
+        font-size: 16px;
+        background: #28CECE;
+        position: absolute;
+        color: white;
+        padding: 8px;
+        font-family: "Avenirroman", sans-serif;
+    }
+p{
+    font-size: 16px;
+    padding: 3px;
+    margin-left: 240px;
+    text-align: center;
+    color:white;
+    max-width: 300px;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+
+img{
+    text-align: center;
+   margin-left: 250px;
+}
+
+/* Main Navigation */
+     #mainmenu {
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 160px;
+        padding-bottom: 30px;
+    }
+    /*Su */
+    .Name {
+        font-family: "Blowbrush", sans-serif;
+        color: #23BEBB;
+        font-size: 35px;
+        padding-bottom: 8px;
+        float: left;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .Name:active {
+        font-size: 35px;
+        text-align: center;
+        color: #efefef;
+        padding-bottom: 8px;
+        float: left;
+        text-align:center;
+        padding-top: 8px;
+    }
+    #maintitle {
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        font-family: "Adam", sans-serif;
+        color: #23BEBB;
+        float: left;
+        font-size: 38px;
+        text-align: center;
+    }
+    /*______________ */
+    /* Navigation  */
+    /*______________ */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-size: 25px;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #22BAB7;
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-family: 'Didact Gothic', sans-serif;
+    }
+    li a:hover:not(.active) {
+        color: #fff;
+    }
+    .active {
+        color: #fff;
+    }
+    /* Span */
+    span {
+        font-family: 'Didact Gothic', sans-serif;
+    }
+    ul {
+        text-align: center;
+       padding-right: 20px;
+      }
+      /* Caption for image */
+    #caption{
+        background:none;
+        position: absolute;
+        font-size: 28px;
+        width: 25%;
+        top:320px;
+        left:61px;
+         background: #28CECE;
+    }
+    /* Material for image */
+    #material{
+        background:none;
+        color: white;
+        width:25%;
+        position:absolute;
+        top:370px;
+        left:61px;
+        font-size: 14px;
+         background: #28CECE;
+    }
+    /* paragraph */
+p{
+    margin-bottom: 50px;
+    margin-top: -60px;
+    margin-left: 40px;
+    font-size: 14px;
+    color: white;
+}
+
+}
+

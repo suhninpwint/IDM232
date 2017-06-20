@@ -1,0 +1,1370 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #082E41;
+    padding: 20px;
+}
+/*Span */
+    span {
+        font-family: 'Didact Gothic', sans-serif;
+    }
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 402px){
+
+	.alltablet_images{
+		display: none;
+	}
+	#mainmenu {
+ 		display: none;
+    }
+    #mainmenu2 {
+        float: right;
+        top: 0px;
+        padding-left: 200px;
+        width: 300px;
+    }
+    .name2 {
+       font-family: "Blowbrush", sans-serif;
+        color: #23BEBB;
+        font-size: 30px;
+        padding-bottom: 15px;
+        float: left;
+    }
+
+ /* Fine Arts Title */
+    #maintitle {
+ 		 padding: 10px;
+        font-family: "Adam", sans-serif;
+        color: #23BEBB;
+        text-align: center;
+        font-size: 25px;
+    }
+    /* Button */
+    .btn {
+        color: #FFFFFF;
+        padding: 15px 50px;
+        border: 2px solid #28CECE;
+        background-color: #082E41;
+        text-align: center;
+        font-family: "Adam", sans-serif;
+        margin: 20px 70px;
+        text-align: center;
+        font-size: 13px;
+    }
+    /* Button active */
+    .btn:active {
+        background-color: #28CECE;
+        font-family: "Adam", sans-serif;
+        /*BLue */
+        border: none;
+        color: #082E41;
+        padding: 15px 50px;
+        text-align: center;
+        display: inline-block;
+        margin: 20px 70px;
+        cursor: pointer;
+        font-size: 13px;
+    }
+  
+    /* Bullet Points */
+    ul a {
+        padding: 5px 5px 5px 25px;
+        text-decoration: none;
+        color: #19868F;
+        font-size: 18px;
+        display: block;
+        transition: 0.3s;
+    }
+    /* List type */
+    ul {
+        list-style-type: none;
+    }
+/* Picture 1 Mobile Elements */
+ #pic1_mobile {
+        padding: 8px;
+        padding-left: 50px;
+
+    }
+#slogan1_mobile {
+        background: #28CECE;
+        width: 65.5%;
+        /* width: 33.2%;*/
+        top: 370px;
+        left: 70px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 8px;
+        color: white;
+        position: absolute;
+        display: block;
+    }
+
+ #name1_mobile {
+        width: 65.5%;
+        display: block;
+        /*width: 33.2% */
+        font-size: 15px;
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 403px;
+        left: 70px;
+        padding: 8px;
+        font-family: "Avenirroman", sans-serif;
+    }
+
+/* Picture 2 Mobile Elements */
+#pic2_mobile {
+        padding: 8px;
+        padding-left: 50px;
+        float: left;
+    }
+     #name2_mobile {
+        width: 30.5%;
+        font-size: 12px;
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 534px;
+        left: 70px;
+        padding: 5px;
+        font-family: "Avenirroman", sans-serif;
+    }
+    #slogan2_mobile {
+        background: #28CECE;
+        width: 30.5%;
+        position: absolute;
+        top: 497px;
+        left: 70px;
+        font-family: "Adam", sans-serif;
+        font-size: 16px;
+        padding: 8px;
+        color: white;
+    }
+
+/*Picture 3 Mobile Elements */
+#pic3_mobile {
+        padding: 10px;
+    }
+#name3_mobile {
+        width: 30.5%;
+        font-size: 12px;
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 528px;
+        left: 200px;
+        padding: 2px;
+        font-family: "Avenirroman", sans-serif;
+    }
+#slogan3_mobile {
+        background: #28CECE;
+        width: 30.5%;
+        color:white;
+        position: absolute;
+        top: 490px;
+        left: 200px;
+        font-family: "Adam", sans-serif;
+        font-size: 14px;
+        padding: 4px;
+   }
+
+/*Picture 4 Mobile Elements */
+ #pic4_mobile {
+        padding-left: 50px;
+    }
+ #name4_mobile {
+        width: 65.5%;
+        font-size: 15px;
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 660px;
+        left: 70px;
+        padding: 8px;
+        font-family: "Avenirroman", sans-serif;
+    }
+ #slogan4_mobile {
+        background: #28CECE;
+        width: 65.5%;
+        position: absolute;
+        top: 628px;
+        left: 70px;
+        font-family: "Adam", sans-serif;
+        font-size: 16px;
+        padding: 6px;
+        color: white;
+    }
+
+/*Picture 5 Mobile Elements */
+
+#pic5_mobile {
+        padding: 8px;
+        padding-left: 50px;
+    }
+/* 5th */
+#name5_mobile {
+        width: 65%;
+        font-size: 15px;
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 890px;
+        left: 71px;
+        padding: 8px;
+        font-family: "Avenirroman", sans-serif;
+    }
+
+
+/*slogan5_mobile*/
+ #slogan5_mobile {
+        background: #28CECE;
+        width: 65%;
+        position: absolute;
+        top: 860px;
+        left: 71px;
+        font-family: "Adam", sans-serif;
+        font-size: 16px;
+        padding: 6px;
+        color: white;
+    }
+/* Footer */
+footer {
+        padding: 10px;
+        padding-left: 90px;
+        color:white;
+    }
+
+    /* Hidding Tablet Images */
+    .alltablet_images {
+        display: none;
+    }
+
+    /*Hiding Desktop Images */
+	 #allimages{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 402px) and (max-width: 579px) {
+/* Hidding Tablet Images */
+    .alltablet_images {
+        display: none;
+    }
+
+    /*Hiding Desktop Images */
+	 #allimages{
+        display: none;
+    }
+    /* All Mobile Images */
+	.allmobile_images{
+		padding-left:80px;
+	}
+    #mainmenu {
+ 		display: none;
+    }
+    #mainmenu2 {
+        float: right;
+        top: 0px;
+        padding-left: 200px;
+        width: 300px;
+    }
+    .name2 {
+       font-family: "Blowbrush", sans-serif;
+        color: #23BEBB;
+        font-size: 30px;
+        padding-bottom: 15px;
+        float: left;
+    }
+
+ /* Fine Arts Title */
+    #maintitle {
+    	width: 300px;
+    	margin-left: 115px;
+    	text-align: center;
+ 		 padding: 10px;
+        font-family: "Adam", sans-serif;
+        color: #23BEBB;
+   	
+        font-size: 25px;
+    }
+    /* Button */
+    .btn {
+        color: #FFFFFF;
+        padding: 15px 50px;
+        border: 2px solid #28CECE;
+        background-color: #082E41;
+        text-align: center;
+        font-family: "Adam", sans-serif;
+        margin: 20px 70px;
+        margin-left:160px;
+        text-align: center;
+        font-size: 14px;
+    }
+    /* Button active */
+    .btn:active {
+        background-color: #28CECE;
+        font-family: "Adam", sans-serif;
+        /*BLue */
+        border: none;
+        color: #082E41;
+        padding: 15px 50px;
+        text-align: center;
+        display: inline-block;
+        margin: 20px 70px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-left:160px;
+    }
+  
+    /* Bullet Points */
+    ul a {
+        padding: 5px 5px 5px 25px;
+        text-decoration: none;
+        color: #19868F;
+        font-size: 18px;
+        display: block;
+        transition: 0.3s;
+    }
+    /* List type */
+    ul {
+        list-style-type: none;
+    }
+/* Picture 1 Mobile Elements */
+ #pic1_mobile {
+        padding: 8px;
+        padding-left: 50px;
+
+    }
+#slogan1_mobile {
+        background: #28CECE;
+        width: 50.5%;
+        /* width: 33.2%;*/
+        top: 370px;
+        left: 150px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 8px;
+        color: white;
+        position: absolute;
+        display: block;
+    }
+
+ #name1_mobile {
+        width: 50.5%;
+        display: block;
+        /*width: 33.2% */
+        font-size: 15px;
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 404px;
+        left: 150px;
+        padding: 8px;
+        font-family: "Avenirroman", sans-serif;
+    }
+
+/* Picture 2 Mobile Elements */
+#pic2_mobile {
+        padding: 8px;
+        padding-left: 50px;
+        float: left;
+    }
+     #name2_mobile {
+        width: 23.5%;
+        font-size: 12px;
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 535px;
+        left: 150px;
+        padding: 5px;
+        font-family: "Avenirroman", sans-serif;
+    }
+    #slogan2_mobile {
+        background: #28CECE;
+        width: 23.5%;
+        position: absolute;
+        top: 500px;
+        left: 150px;
+        font-family: "Adam", sans-serif;
+        font-size: 16px;
+        padding: 8px;
+        color: white;
+    }
+
+/*Picture 3 Mobile Elements */
+#pic3_mobile {
+        padding: 10px;
+    }
+#name3_mobile {
+        width: 23.5%;
+        font-size: 12px;
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 529px;
+        left: 280px;
+        padding: 2px;
+        font-family: "Avenirroman", sans-serif;
+    }
+#slogan3_mobile {
+        background: #28CECE;
+        width: 23.5%;
+        color:white;
+        position: absolute;
+        top: 489px;
+        left: 280px;
+        font-family: "Adam", sans-serif;
+        font-size: 14px;
+        padding: 4px;
+   }
+
+/*Picture 4 Mobile Elements */
+ #pic4_mobile {
+        padding-left: 50px;
+    }
+ #name4_mobile {
+        width: 50.5%;
+        font-size: 15px;
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 661px;
+        left: 150px;
+        padding: 8px;
+        font-family: "Avenirroman", sans-serif;
+    }
+ #slogan4_mobile {
+        background: #28CECE;
+        width: 50.5%;
+        position: absolute;
+        top: 631px;
+        left: 150px;
+        font-family: "Adam", sans-serif;
+        font-size: 16px;
+        padding: 6px;
+        color: white;
+    }
+
+/*Picture 5 Mobile Elements */
+
+#pic5_mobile {
+        padding: 8px;
+        padding-left: 50px;
+    }
+/* 5th */
+#name5_mobile {
+        width: 50.5%;
+        font-size: 15px;
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 890px;
+        left: 150px;
+        padding: 8px;
+        font-family: "Avenirroman", sans-serif;
+
+    }
+
+
+/*slogan5_mobile*/
+ #slogan5_mobile {
+        background: #28CECE;
+        width: 50.5%;
+        position: absolute;
+        top: 860px;
+        left: 150px;
+        font-family: "Adam", sans-serif;
+        font-size: 16px;
+        padding: 6px;
+        color: white;
+        
+    }
+
+    /* Footer */
+footer {
+        padding: 10px;
+        color:white;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width:600px) and (max-width: 780px){
+
+/* Hidding Mobile Images */
+	.allmobile_images{
+	display: none;
+}
+
+/*Hiding Desktop Images */
+	 #allimages{
+        display: none;
+    }
+    /*Main Navigation */
+	 #mainmenu {
+        text-align: center;
+        padding-left: 150px;
+       padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+/*Hidding Su */
+#mainmenu2{
+        display: none;
+    }
+    /*______________ */
+    /* Navigation  */
+    /*______________ */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #22BAB7;
+        text-align: center;
+        padding: 16px 18px;
+        text-decoration: none;
+        font-family: 'Didact Gothic', sans-serif;
+    }
+    li a:hover:not(.active) {
+        color: #fff;
+    }
+    .active {
+        color: #fff;
+    }
+    ul {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+     .Name {
+        font-family: "Blowbrush", sans-serif;
+        color: #23BEBB;
+        font-size: 30px;
+        padding-top:5px;
+        padding-bottom: 15px;
+        float: left;
+    }
+    .Name:active {
+        font-size: 30px;
+        text-align: center;
+        color: #efefef;
+        padding-top:5px;
+        padding-bottom: 15px;
+        float: left;
+    }
+/* Navigation button */
+	.nav {
+        margin-top: 200px;
+        width: 1024px;
+        height: 34px;
+    }
+    .nav_button {
+        height: 34px;
+        margin: 0 auto;
+        margin-right: 10px;
+        float: left;
+    }
+
+    /* Icon Hover */
+     .testicon:hover {
+        background: url(icons/behance_white.png);
+        cursor: pointer;
+    }
+    /* Buttons */
+      .btn {
+        color: #FFFFFF;
+        padding: 12px 40px;
+        border: 2px solid #28CECE;
+        background-color: #082E41;
+        font-family: "Adam", sans-serif;
+        margin: 17px 120px;
+        font-size: 13px;
+        position: absolute;
+        top:400px;
+ 		left: 12px;
+    }
+    .btn:active {
+        background-color: #28CECE;
+        font-family: "Adam", sans-serif;
+        /*BLue */
+        border: none;
+        color: #082E41;
+        padding: 12px 40px;
+        display: inline-block;
+        margin: 17px 120px;
+        cursor: pointer;
+        font-size: 13px;
+        position: absolute;
+        top:400px;
+ 		left: 12px;
+    }
+  #maintitle {
+        padding-left: 50px;
+        padding-top: 150px;
+        text-align: center;
+        font-family: "Adam", sans-serif;
+        color: #23BEBB;
+        float: left;
+        font-size: 30px;
+    }
+     /* All Tablet Images resizing */
+    .alltablet_images{
+    	width: 250px;
+    	float:left;
+    	position: relative;
+    	margin-left:10px;
+        margin-top:10px;
+    }
+
+    /* Tablet Image 1 */
+#pic1_tablet{
+position: absolute;
+}
+#slogan1_tablet{
+      background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 7px;
+        color: white;
+}
+#name1_tablet{
+   background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 38px;
+        left: 0;
+        width: 100%;
+        padding: 7px;
+        font-family: "Avenirroman", sans-serif;
+        font-size: 16px;
+}
+#pic2_tablet{
+	position: absolute;
+	top:140px;
+	left:100px;
+}
+#slogan2_tablet{
+   background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 7px;
+        color: white;
+}
+#name2_tablet{
+ 		background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 38px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 16px;
+        padding: 7px;
+        color: white;
+}
+
+/*Tablet Image 3 */
+
+#pic3_tablet{
+	position: absolute;
+	top: 250px;
+	left:0px;
+}
+#slogan3_tablet{
+ background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 7px;
+        color: white;
+}
+#name3_tablet{
+	 background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 38px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 16px;
+        padding: 7px;
+        color: white;
+
+}
+/*Tablet Image 4 */
+#pic4_tablet{
+	position: absolute;
+	top:410px;
+	left: 110px;
+
+}
+#slogan4_tablet{
+	  background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 10px;
+        color: white;
+
+}
+#name4_tablet{
+	 background: #28CECE;
+        color: white;
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        padding: 7px;
+        font-size: 16px;
+
+}
+/*Tablet Image 5*/
+#pic5_tablet{
+	position: absolute;
+	top:500px;
+
+}
+#slogan5_tablet{
+	 background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 7px;
+        color: white;
+
+}
+#name5_tablet{
+	  background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 38px;
+        left: 0px;
+        font-family: "Avenirroman", sans-serif;
+        padding: 7px;
+        font-size: 16px;
+        color: white;
+
+}
+/* Font Style for Span */
+ span {
+        font-family: 'Didact Gothic', sans-serif;
+    }
+ /* Footer */
+     footer {
+        position: absolute;
+        padding-left: 100px;
+        margin-top: 100px;
+        top: 400px;
+        color:white;
+    }
+
+}
+
+/*_______________________*/
+/* Desktop Screen */
+/*_______________________*/
+@media screen and (min-width: 809px) and (max-width: 928px){
+	/* Hidding Mobile Images */
+	.allmobile_images{
+	display: none;
+}
+
+/* Hidding Desktop Images */
+#allimages{
+	display: none;
+}
+/* Main Navigation */
+	 #mainmenu {
+        text-align: center;
+        padding-left: 250px;
+       padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+/*Hidding Su */
+#mainmenu2{
+        display: none;
+    }
+    /*______________ */
+    /* Navigation  */
+    /*______________ */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #22BAB7;
+        text-align: center;
+        padding: 16px 18px;
+        text-decoration: none;
+        font-family: 'Didact Gothic', sans-serif;
+    }
+    li a:hover:not(.active) {
+        color: #fff;
+    }
+    .active {
+        color: #fff;
+    }
+    ul {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+     .Name {
+        font-family: "Blowbrush", sans-serif;
+        color: #23BEBB;
+        font-size: 30px;
+        padding-top:5px;
+        padding-bottom: 15px;
+        float: left;
+    }
+    .Name:active {
+        font-size: 30px;
+        text-align: center;
+        color: #efefef;
+        padding-top:5px;
+        padding-bottom: 15px;
+        float: left;
+    }
+/* Navigation button */
+	.nav {
+        margin-top: 200px;
+        width: 1024px;
+        height: 34px;
+    }
+    .nav_button {
+        height: 34px;
+        margin: 0 auto;
+        margin-right: 10px;
+        float: left;
+    }
+
+    /* Icon Hover */
+     .testicon:hover {
+        background: url(icons/behance_white.png);
+        cursor: pointer;
+    }
+    /* Buttons */
+      .btn {
+        color: #FFFFFF;
+        padding: 12px 40px;
+        border: 2px solid #28CECE;
+        background-color: #082E41;
+        font-family: "Adam", sans-serif;
+        margin: 17px 120px;
+        font-size: 13px;
+        position: absolute;
+        top:400px;
+ 		left: 12px;
+    }
+    .btn:active {
+        background-color: #28CECE;
+        font-family: "Adam", sans-serif;
+        /*BLue */
+        border: none;
+        color: #082E41;
+        padding: 12px 40px;
+        display: inline-block;
+        margin: 17px 120px;
+        cursor: pointer;
+        font-size: 13px;
+        position: absolute;
+        top:400px;
+ 		left: 12px;
+    }
+  #maintitle {
+        padding-left: 50px;
+        padding-top: 150px;
+        text-align: center;
+        font-family: "Adam", sans-serif;
+        color: #23BEBB;
+        float: left;
+        font-size: 40px;
+    }
+
+    
+    /* All Tablet Images resizing */
+    .alltablet_images{
+    	width: 350px;
+    	float:left;
+    	position: relative;
+    	margin-left:10px;
+        margin-top:10px;
+    }
+
+/* Tablet Image 1 */
+#pic1_tablet{
+position: absolute;
+}
+#slogan1_tablet{
+      background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 7px;
+        color: white;
+}
+#name1_tablet{
+   background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 38px;
+        left: 0;
+        width: 100%;
+        padding: 7px;
+        font-family: "Avenirroman", sans-serif;
+        font-size: 16px;
+}
+
+
+/*Tablet Image 2 */
+#pic2_tablet{
+	position: absolute;
+	top:140px;
+	left:100px;
+}
+#slogan2_tablet{
+   background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 7px;
+        color: white;
+}
+#name2_tablet{
+ 		background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 38px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 16px;
+        padding: 7px;
+        color: white;
+}
+
+/*Tablet Image 3 */
+
+#pic3_tablet{
+	position: absolute;
+	top: 250px;
+	left:0px;
+}
+#slogan3_tablet{
+ background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 7px;
+        color: white;
+}
+#name3_tablet{
+	 background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 38px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 16px;
+        padding: 7px;
+        color: white;
+
+}
+/*Tablet Image 4 */
+#pic4_tablet{
+	position: absolute;
+	top:410px;
+	left: 110px;
+
+}
+#slogan4_tablet{
+	  background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 10px;
+        color: white;
+
+}
+#name4_tablet{
+	 background: #28CECE;
+        color: white;
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        padding: 7px;
+        font-size: 16px;
+
+}
+/*Tablet Image 5*/
+#pic5_tablet{
+	position: absolute;
+	top:500px;
+
+}
+#slogan5_tablet{
+	 background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 18px;
+        padding: 7px;
+        color: white;
+
+}
+#name5_tablet{
+	  background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 38px;
+        left: 0px;
+        font-family: "Avenirroman", sans-serif;
+        padding: 7px;
+        font-size: 16px;
+        color: white;
+
+}
+/* Font Style for Span */
+ span {
+        font-family: 'Didact Gothic', sans-serif;
+    }
+
+    /* Footer */
+     footer {
+        position: absolute;
+        padding-left: 110px;
+        margin-top: 100px;
+        top: 400px;
+        color:white;
+    }
+
+}
+/*___________________*/
+/* HD DEKSTOP */
+/*___________________*/
+@media screen and (min-width: 1024px) {
+	/*Su Name */
+	
+/* Hidding Toggle */
+	#menuToggle{
+	display: none;
+}
+/* Hidding all the Tablet Images */
+.alltablet_images{
+	display: none;
+}
+/*Hidding all the mobile Images */
+
+.allmobile_images{
+	display: none;
+}
+/* Main Navigation */
+	 #mainmenu {
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 250px;
+        padding-bottom: 30px;
+    }
+    /*Su */
+    .Name {
+        font-family: "Blowbrush", sans-serif;
+        color: #23BEBB;
+        font-size: 35px;
+        padding-bottom: 8px;
+        float: left;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .Name:active {
+        font-size: 35px;
+        text-align: center;
+        color: #efefef;
+        padding-bottom: 8px;
+        float: left;
+        text-align:center;
+        padding-top: 8px;
+    }
+    #maintitle {
+        padding: 10px;
+        padding-top: 120px;
+        padding-bottom: 10px;
+        /* width: 380px;*/
+        font-family: "Adam", sans-serif;
+        color: #23BEBB;
+        float: left;
+        font-size: 40px;
+        text-align: center;
+    }
+    /*______________ */
+    /* Navigation  */
+    /*______________ */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-size: 25px;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #22BAB7;
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-family: 'Didact Gothic', sans-serif;
+    }
+    li a:hover:not(.active) {
+        color: #fff;
+    }
+    .active {
+        color: #fff;
+    }
+    ul {
+        text-align: center;
+       padding-right: 24px;
+      
+    }
+/* Buttons */
+      .btn {
+        color: #FFFFFF;
+        padding: 12px 50px;
+        border: 2px solid #28CECE;
+        background-color: #082E41;
+        font-family: "Adam", sans-serif;
+        margin: 30px 120px;
+        font-size: 13px;
+ 		top:400px;
+ 		left: 5px;
+        position: absolute;
+    }
+    .btn:active {
+        background-color: #28CECE;
+        top:400px;
+        left:5px;
+        font-family: "Adam", sans-serif;
+        /*BLue */
+        border: none;
+        color: #082E41;
+        padding: 12px 50px;
+        display: inline-block;
+        margin: 30px 120px;
+        cursor: pointer;
+        font-size: 13px;
+        position: absolute;
+    }
+/* All Images Floating to Left */
+ #allimages {
+        width: 400px;
+        float: left;
+        position: relative;
+        margin-left:80px;
+        margin-top:20px;
+    }
+/*Span */
+ 	span {
+        font-family: 'Didact Gothic', sans-serif;
+    }
+    .name2{
+    	display: none;
+    }
+	/*Picture 1 Desktop Elements */
+	#pic1 {
+        position: absolute;
+    }
+ #name1_desktop {
+        background: #28CECE;
+        color: white;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        font-family: "Avenirroman", sans-serif;
+    }
+    #slogan1_desktop {
+        background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        color: white;
+    }
+	/*Picture 2 Desktop Elements */
+	#pic2 {
+        position: absolute;
+        top: 160px;
+        left: 160px;
+    }
+	#name2_desktop {
+        background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        padding: 10px;
+        color: white;
+    }
+   #slogan2_desktop {
+        background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        color: white;
+    }
+	/*Picture 3 Desktop Elements */
+	#pic3 {
+        position: absolute;
+        top: 350px;
+        left: 0px;
+    }
+  #slogan3_desktop {
+        background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        color: white;
+    }
+ #name3_desktop {
+        background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        padding: 10px;
+        color: white;
+    }
+/* Picture 4 Dekstop Elements */
+#pic4 {
+        position: absolute;
+        top: 500px;
+        left: 155px;
+    }
+    #slogan4_desktop {
+        background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        color: white;
+    }
+    #name4_desktop {
+        background: #28CECE;
+        color: white;
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        padding: 10px;
+    }
+	/* Picture 5 Desktop Elements */
+	#pic5 {
+        position: absolute;
+        top: 700px;
+    }
+#slogan5_desktop {
+        background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: "Adam", sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        color: white;
+    }
+    #name5_desktop {
+        background: #28CECE;
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        font-family: "Avenirroman", sans-serif;
+        padding: 10px;
+        color: white;
+    }
+    /* Footer */
+footer {
+      
+        padding: 10px;
+        padding-left: 100px;
+    	position: absolute;
+    	top: 500px;
+    	cursor:pointer;
+        color:white;
+    }
+		
+	}
